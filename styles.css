@@ -620,3 +620,49 @@ footer {
         text-align: center;
     }
 }
+
+/*Update 05/12/2024*/ 
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+nav {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+}
+
+section {
+    width: 100%;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.services-carousel,
+.projects-gallery {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    nav .logo img{
+        display: none;
+    }
+    .hero{
+        background-attachment: scroll;
+    }
+}
